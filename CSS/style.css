@@ -1,0 +1,62 @@
+/* Reglas generales para el body */
+body {
+    background-image: url("../imagenes/maya.jpg");
+  }
+  
+  /* Encabezado con la imagen */
+  .header-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* Imagen de fondo del menú completo (debe ir detrás del menú) */
+  .custom-navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imagenes/menu_completo.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Asegura que la imagen quede detrás del menú */
+  }
+  .custom-navbar .nav-link img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-navbar .nav-link img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+  }
+  
+  /* Imagen del niño escuchando */
+  .listening-child img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+  
+  .objective-info-section {
+    background-image: url("../imagenes/fondo.png");
+    padding: 20px;
+  }
+  
+  .objective-title {
+    font-size: 2rem;
+    color: rgb(107, 176, 240);
+    font-weight: bold;
+  }
+  
+  footer img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .objective-info-section .row img {
+      margin-bottom: 15px;
+    }
+  }
+  
