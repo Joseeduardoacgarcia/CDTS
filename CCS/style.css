@@ -1,0 +1,48 @@
+header {
+    text-align: justify;
+    margin-left: 550px;
+}
+.nombre {
+    font-size: 35px; 
+}
+.apellidos {
+    font-weight: bold;
+}
+
+.foto img {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid #000; 
+    position: absolute;
+    top: 10px;
+    right: 350px;
+}
+h2{
+    margin-left: 300px; 
+}
+h3{
+    margin-left: 300px; 
+}
+ li {
+    text-align: justify; 
+    margin-left: 550px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+.resumen1{
+    text-align: justify;
+    margin-left: 550px;
+}
+.experiencia1{
+    text-align: justify;
+    margin-left: 450px;
+}
+.formacion1{
+    text-align: justify;
+    margin-left: 550px;
+}
